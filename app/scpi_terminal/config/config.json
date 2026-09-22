@@ -1,0 +1,49 @@
+{
+    "Version": 1,
+    "misc": {
+        "debug_log": true,
+        "record": false,
+        "log_colors":{
+            "in": "#53EAFD",
+            "out": "#FFB657",
+            "err": "red",
+            "default": "#D8DEE9"
+        }
+    },
+    "instrument": {
+        "ip": "172.16.24.93",
+        "subinstrument": 0
+    },
+	"custom_shortcuts": [
+        {
+            "button": 1,
+            "title": "IDN",
+            "command": "*IDN?",
+            "args": null
+        },
+        {
+            "button": 2,
+            "title": "OPC",
+            "command": "*OPC?",
+            "args": null
+        },
+        {
+            "button": 3,
+            "title": "CLS",
+            "command": "*CLS",
+            "args": null
+        },
+        {
+            "button": 4,
+            "title": "PRESET",
+            "command": "SYST:PRES",
+            "args": null
+        },
+        {
+            "button": 5,
+            "title": "ERR",
+            "command": "SYST:ERR?",
+            "args": null
+        }
+    ]
+}

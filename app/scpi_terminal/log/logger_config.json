@@ -1,0 +1,19 @@
+{
+    "console_colors": {
+        "reset"    : "\\033[0m",
+        "DEBUG"    : "\\033[94m",
+        "INFO"     : "\\033[0m",
+        "WARNING"  : "\\033[93m",
+        "ERROR"    : "\\033[91m",
+        "CRITICAL" : "\\033[95m",
+        "EXCEPTION": "\\033[91m"
+    },
+    "gui_colors":{
+        "DEBUG"    : "#3344ff",
+        "INFO"     : "#000000",
+        "WARNING"  : "#ff8400",
+        "ERROR"    : "#ff3300",
+        "CRITICAL" : "#cc2193",
+        "EXCEPTION": "#ff3300"
+    }
+}

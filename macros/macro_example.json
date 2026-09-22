@@ -1,0 +1,16 @@
+{
+	"commands": [
+		{
+			"name": "*IDN?",
+			"args": ""
+		},
+		{
+			"name": "pause",
+			"args": "1"
+		},
+		{
+			"name": "*OPC?",
+			"args": ""
+		}
+	]
+}

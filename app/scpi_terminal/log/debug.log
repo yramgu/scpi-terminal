@@ -1,0 +1,20 @@
+29/10/2025 09:25:57 [INFO    ] - Module: scpi_terminal                 Method: __init__                      Message: **********************************************
+29/10/2025 09:25:57 [INFO    ] - Module: scpi_terminal                 Method: __init__                      Message: *                                            *
+29/10/2025 09:25:57 [INFO    ] - Module: scpi_terminal                 Method: __init__                      Message: *                SCPI TERMINAL               *
+29/10/2025 09:25:57 [INFO    ] - Module: scpi_terminal                 Method: __init__                      Message: *                    v1.1                    *
+29/10/2025 09:25:57 [INFO    ] - Module: scpi_terminal                 Method: __init__                      Message: *              Y.Ramgulam - 2025             *
+29/10/2025 09:25:57 [INFO    ] - Module: scpi_terminal                 Method: __init__                      Message: *                                            *
+29/10/2025 09:25:57 [INFO    ] - Module: scpi_terminal                 Method: __init__                      Message: **********************************************
+
+29/10/2025 09:25:57 [INFO    ] - Module: scpi_terminal                 Method: __init__                      Message: Version 1.1
+29/10/2025 09:25:57 [INFO    ] - Module: scpi_terminal                 Method: init_general                  Message: Loading config
+29/10/2025 09:25:57 [INFO    ] - Module: eqpt                          Method: __init__                      Message: Instantiating Equipment class
+29/10/2025 09:25:57 [INFO    ] - Module: command_manager               Method: __init__                      Message: Command Manager service started
+29/10/2025 09:26:01 [INFO    ] - Module: eqpt                          Method: connect_instrument            Message: Connected
+29/10/2025 09:26:01 [DEBUG   ] - Module: eqpt                          Method: send_command                  Message: *IDN?
+29/10/2025 09:26:01 [DEBUG   ] - Module: eqpt                          Method: idn                           Message: Reply: Keysight Technologies,E36313A,MY61002823,2.1.0-1.0.4-1.12
+
+29/10/2025 09:26:03 [DEBUG   ] - Module: eqpt                          Method: send_command                  Message: *IDN?
+29/10/2025 09:26:07 [DEBUG   ] - Module: eqpt                          Method: send_command                  Message: *CLS
+29/10/2025 09:26:10 [INFO    ] - Module: eqpt                          Method: send_command                  Message: waiting for read
+29/10/2025 09:26:12 [INFO    ] - Module: scpi_terminal                 Method: closeEvent                    Message: Closing program
